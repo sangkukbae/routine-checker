@@ -1,0 +1,81 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 2rem;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(45deg, #FF6B6B, #9B59B6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.add-habit-form {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.habit-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  color: white;
+  width: 250px;
+  transition: border-color 0.2s;
+}
+
+.habit-input:focus {
+  outline: none;
+  border-color: #45B7D1;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #45B7D1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-button:hover {
+  background: #3498db;
+}
+
+.app-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-section h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
